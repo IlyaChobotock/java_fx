@@ -1,0 +1,27 @@
+.button{
+    -fx-background-color: gold;
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-border-color: silver;
+    -fx-text-fill: DimGrey;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover{
+    -fx-background-color: coral;
+}
+
+.text-area{
+    -fx-background-color: silver;
+    -fx-control-inner-background: cornsilk;
+    -fx-text-fill: DimGrey;
+    //-fx-font-weight: bold;
+    -fx-font-size: 14;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.text-field{
+    -fx-font-size: 14;
+    -fx-border-color: silver;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
